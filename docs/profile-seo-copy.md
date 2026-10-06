@@ -35,25 +35,42 @@ Keep the 5–8 phrases with visible autocomplete and a healthy number of posts. 
 - `OWND | Streetwear Maroc` (23)
 - Alternative: `OWND Hoodies Maroc 🇲🇦`
 
-**Instagram bio (max 150 chars), Darija + French + English mix**
+**Instagram bio (max 150 chars; short lines, no emoji spam, one idea per line)**
 
-Option A (hook + keywords):
+Structure: **who you are** (keywords) → **the hook** (your line) → **proof/offer** → **one action**. Max 1–2 emojis (a flag and an arrow). Each line is its own line; no separators crammed on one line.
+
+Option 1 (recommended: keywords first, 132 chars):
 ```
-Streetwear marocain · Hoodies oversize 🇲🇦
-Chapter 01: 50 pieces numérotées
-Livraison f ga3 l mdon · Khlass mnin ywsl lik
-👇 Waitlist
+Hoodies oversize · Made in Morocco 🇲🇦
+Chapter 01: 50 pièces numérotées
+Ma t3tich l9lam l chi had.
+Paiement à la livraison
+↓ Waitlist
 ```
-Option B (story first):
+Option 2 (English hook first, 143 chars):
+```
+Own your story. 🇲🇦
+Streetwear marocain · Chapter 01
+50 hoodies. 50 stories.
+Livraison partout au Maroc · Cash à la réception
+↓ Rejoins la liste
+```
+Option 3 (Darija hook first, shortest, 120 chars):
 ```
 Ma t3tich l9lam l chi had.
-Marque streetwear marocaine · Own your story
-Chapter 01 · 50 pieces · Paiement à la livraison
-👇 Rejoins la liste
+Streetwear marocain 🇲🇦
+Chapter 01 · 50 hoodies numérotés
+↓ Waitlist · Paiement à la livraison
 ```
 
 **TikTok bio (max 80 chars)**
-- `Streetwear maroc 🇲🇦 Chapter 01 · 50 pieces · Ma t3tich l9lam l chi had`
+```
+Streetwear marocain 🇲🇦
+Chapter 01 · 50 hoodies ↓
+```
+(48 chars.) Alternative: `Ma t3tich l9lam l chi had.` then `Chapter 01 ↓` (39 chars).
+
+**Bio rules:** no hashtags in the bio; no "DM for order" (use the WhatsApp link); never more than 5 lines; update the "Chapter" line after each drop (e.g. "Chapter 01: sold out · Chapter 02 waitlist ↓").
 
 **Link (one only):** a WhatsApp click-to-chat link so waitlist = a conversation, in this format (replace with your number, country code 212, no "+" and no leading 0):
 `https://wa.me/212XXXXXXXXX?text=LIST`
