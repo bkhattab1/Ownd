@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="'Courier New', Courier, monospace">
+  <rect width="1200" height="900" fill="#e9e6df"/>
+  <text x="600" y="44" text-anchor="middle" font-size="22" fill="#0B0B0B" letter-spacing="4">OWND — CHAPTER 01 "CANDIDAT LIBRE" — CONCEPT v0.2 (not final art)</text>
+  <defs>
+    <g id="mark">
+      <path d="M-40,60 L-40,-10 A40,40 0 0 1 40,-10 L40,60 Z" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/>
+      <circle cx="0" cy="8" r="11" fill="currentColor"/>
+      <path d="M-6,16 L6,16 L10,42 L-10,42 Z" fill="currentColor"/>
+    </g>
+    <path id="hoodie" d="M120,150 Q120,110 160,100 L235,78 Q300,0 365,78 L440,100 Q480,110 480,150 L575,420 L505,450 L470,330 L470,560 L130,560 L130,330 L95,450 L25,420 Z"/>
+  </defs>
+
+  <!-- PAPER hoodie, back: exam-sheet layout -->
+  <g transform="translate(0,70)">
+    <use href="#hoodie" fill="#F2EFE8" stroke="#0B0B0B" stroke-width="3"/>
+    <path d="M235,78 Q300,150 365,78" fill="none" stroke="#0B0B0B" stroke-width="3"/>
+    <g fill="#0B0B0B" font-size="14" letter-spacing="1">
+      <text x="162" y="190">CANDIDAT(E) : ____________</text>
+      <text x="162" y="214">N° D'EXAMEN : 0007 / 0050</text>
+      <text x="162" y="238">ÉPREUVE     : MA 9ISSA</text>
+      <text x="162" y="262">DURÉE       : TOUTE LA VIE</text>
+      <path d="M162,278 L438,278" stroke="#0B0B0B" stroke-width="2" fill="none"/>
+    </g>
+    <text x="300" y="350" text-anchor="middle" font-size="64" font-weight="700" fill="#C8281E" font-style="italic" transform="rotate(-6 300 350)">20/20</text>
+    <ellipse cx="300" cy="336" rx="98" ry="44" fill="none" stroke="#C8281E" stroke-width="4" transform="rotate(-6 300 336)"/>
+    <text x="300" y="420" text-anchor="middle" font-size="13" fill="#0B0B0B" letter-spacing="2">CHAPTER 01 — CANDIDAT LIBRE</text>
+    <text x="300" y="610" text-anchor="middle" font-size="20" fill="#0B0B0B" letter-spacing="3">PAPER · BACK</text>
+  </g>
+
+  <!-- INK hoodie, back -->
+  <g transform="translate(600,70)">
+    <use href="#hoodie" fill="#0B0B0B" stroke="#0B0B0B" stroke-width="3"/>
+    <path d="M235,78 Q300,150 365,78" fill="none" stroke="#F2EFE8" stroke-width="3"/>
+    <g fill="#F2EFE8" font-size="14" letter-spacing="1">
+      <text x="162" y="190">CANDIDAT(E) : ____________</text>
+      <text x="162" y="214">N° D'EXAMEN : 0007 / 0050</text>
+      <text x="162" y="238">ÉPREUVE     : MA 9ISSA</text>
+      <text x="162" y="262">DURÉE       : TOUTE LA VIE</text>
+      <path d="M162,278 L438,278" stroke="#F2EFE8" stroke-width="2" fill="none"/>
+    </g>
+    <text x="300" y="350" text-anchor="middle" font-size="64" font-weight="700" fill="#F2EFE8" font-style="italic" transform="rotate(-6 300 350)">20/20</text>
+    <ellipse cx="300" cy="336" rx="98" ry="44" fill="none" stroke="#C8281E" stroke-width="4" transform="rotate(-6 300 336)"/>
+    <text x="300" y="420" text-anchor="middle" font-size="13" fill="#F2EFE8" letter-spacing="2">CHAPTER 01 — CANDIDAT LIBRE</text>
+    <text x="300" y="610" text-anchor="middle" font-size="20" fill="#0B0B0B" letter-spacing="3">INK · BACK</text>
+  </g>
+
+  <!-- chest mark -->
+  <g transform="translate(300,770) scale(0.8)" color="#0B0B0B"><use href="#mark"/></g>
+  <text x="300" y="860" text-anchor="middle" font-size="16" fill="#0B0B0B" letter-spacing="3">CHEST: KEYHOLE DOOR (small)</text>
+  <rect x="840" y="710" width="120" height="110" fill="#0B0B0B"/>
+  <g transform="translate(900,770) scale(0.8)" color="#F2EFE8"><use href="#mark"/></g>
+  <text x="900" y="860" text-anchor="middle" font-size="16" fill="#0B0B0B" letter-spacing="3">RED PEN ACCENT ON BOTH</text>
+</svg>
