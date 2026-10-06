@@ -32,9 +32,20 @@ Date: 2026-10-06. Built from `competitor-research.md` (Wants and Needs, Taliri, 
 | Site / waitlist tool (free tiers first) | 0–300 |
 | Reserve for production | ~3,200 |
 
-At *(assumption)* 180–250 MAD per unit, the reserve covers **~13–17 hoodies**, not 50. Two ways to close the gap:
-1. **Pre-order with a deposit**: waitlist members reserve their number with a 150 MAD deposit (bank transfer / CashPlus / Wafacash), rest paid cash on delivery. 30 reservations = 4,500 MAD, enough to fund the full run of 50. This also kills most COD refusals.
-2. **Start with 25 pieces** if pre-orders are slow, and say so ("only 25 exist").
+At *(assumption)* 180–250 MAD per unit, the reserve covers **~13–17 hoodies**, not 50.
+
+**Decision (badr, 2026-10-06): no deposits.** Moroccan buyers don't trust paying upfront, so it's **cash on delivery only**. The run of 50 is produced in **batches**, and each batch's cash pays for the next:
+
+| Batch | Numbers | Paid by |
+|---|---|---|
+| 1 | 0001–0015 | the 3,200 MAD reserve |
+| 2 | 0016–0035 | COD cash from batch 1 (15 × 499 ≈ 7,500 MAD) |
+| 3 | 0036–0050 | COD cash from batch 2 |
+
+- Buyers **reserve a number for free** on WhatsApp/the form, then pay cash on delivery. Early numbers (batch 1) ship first, which makes 0001–0015 the most wanted.
+- Order confirmation by **WhatsApp voice note or call** before shipping (PRD risk mitigation); anyone who refuses a delivery loses priority for Chapter 02.
+- Be honest about timing: "batch 2 ships in ~2–3 weeks" *(assumption, depends on supplier lead time)*.
+- Public message stays "only 50 exist"; the batches are an operations detail.
 
 Revenue if all 50 sell at 499: ~25,000 MAD, which funds Chapter 02 (hoodie + sweatpants).
 
@@ -47,23 +58,31 @@ Revenue if all 50 sell at 499: ~25,000 MAD, which funds Chapter 02 (hoodie + swe
 | **D-14 → D-8** | Seed the 2 samples to 2 local micro-creators whose story fits | Their real story, not a script; "who would you give Page 0001 to?" |
 | **D-7** | Announce the date | Countdown; keyhole sticker hunt in your city (code = early access) |
 | **D-1** | Send the password to the waitlist only | "Tomorrow. Only for people who are already on the list." |
-| **D (24h)** | Waitlist-only window: reserve your number (deposit) | Live stories: "Page 0007 just found its author" |
+| **D (24h)** | Waitlist-only window: reserve your number (free, pay cash on delivery) | Live stories: "Page 0007 just found its author" |
 | **D+1 → D+3** | Public window for what's left | "Bqaw ghir 9" (only 9 left), sold-out posts |
-| **D+4 → delivery** | Production, then delivery with WhatsApp confirmation | Factory footage, packing every numbered piece |
+| **D+4 → delivery** | Batch 1 ships (0001–0015) after WhatsApp confirmation; COD cash pays batch 2, then batch 3 | Factory footage, packing every numbered piece, "batch 2 is being made" |
 | **After delivery** | Owner content; open the Chapter 02 waitlist | Repost owners; "Chapter 02 has a waitlist. You know the rules." |
 
-## 4. Skit and content ideas (phone + two cousins, 0 MAD)
+## 4. Skit and content ideas (phone + two masked cousins, 0 MAD)
 
-1. **"Machi khdma" (It's not real work):** family dinner, someone says online business isn't work; cut to the cousins packing 50 numbered hoodies at 3am.
-2. **The age-14 flashback:** two kids sketching a logo, a parent closes the notebook; cut to age 19 opening the first sample.
-3. **"Which page are you?":** street interviews in your city asking "what chapter are you writing right now?" (also feeds Written by You).
+**Decision (badr, 2026-10-06): the cousins appear masked.** Turn that into a brand device instead of a limitation:
+- Same mask every time (plain black, with the white **keyhole** on it). The masks become as recognisable as the logo, and fit the story: "it could be anyone's story, including yours."
+- Faces never shown, so the founder story is told by **voiceover** (Darija/FR, subtitled EN) over hands, backs, streets and the work itself.
+- Other people (family actors, friends, owners) can appear unmasked or from behind; the masks stay reserved for the two founders.
+- Masked creators are a known faceless format online, and it removes the "family will see us" pressure that stopped you before.
+
+
+1. **"Machi khdma" (It's not real work):** family dinner shot from the masked cousins' point of view, someone says online business isn't work; cut to two masked figures packing numbered hoodies at 3am.
+2. **The age-14 flashback:** hands of two kids sketching a logo, a parent closes the notebook; cut to masked hands at 19 opening the first sample. Voiceover tells the story.
+3. **"Which page are you?":** masked interviewer, street interviews in your city asking "what chapter are you writing right now?" (also feeds Written by You).
 4. **The keyhole:** someone wearing the hoodie walks past people, and each one stops to look at the keyhole logo (the OWND version of Taliri's "chase sequence", but the hook is curiosity, not hype).
 5. **Sample fail:** honest review of the bad sample next to the good one. Builds trust in quality.
 6. **"Guess the number":** friends guess which number a stranger is wearing; reveal "0001".
 7. **Signing the page:** an owner scans the QR and types their name; "this one's yours now."
 8. **Cousin vs cousin:** they argue about the colour, the price or the run size; let comments vote (cheap research).
 9. **Bac results day:** "they said the bac was the end of the story; it was page one."
-10. **Sold-out reaction:** the real phone notifications on drop day.
+10. **Sold-out reaction:** the real phone notifications on drop day, masks on, celebrating.
+11. **"Who's behind the mask?":** a running joke series; people guess who the founders are. Never reveal, or save the reveal for a big Chapter.
 
 Rhythm: 3 skits + 2 build-in-public + 2 stories per week, batch-filmed twice a week (PRD burnout rule). Post the same video to TikTok, Reels and Shorts.
 
@@ -89,6 +108,6 @@ Hashtags: keep one fixed set per platform, e.g. `#OWND #ownyourstory #streetwear
 
 ## 7. Decisions needed from you
 
-1. One colour or two for Chapter 01?
-2. 50 pieces with a deposit pre-order, or 25 pieces without one?
-3. Are both cousins okay being on camera for skits? (The plan depends on it.)
+1. One colour or two for Chapter 01? (Recommendation: black only.)
+2. ~~Deposit or not~~: decided, COD only with batched production.
+3. ~~On camera~~: decided, yes, masked.
