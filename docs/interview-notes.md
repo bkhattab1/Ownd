@@ -29,6 +29,15 @@ Draft manifesto:
 - @wantsandneedsbrand_: for **marketing**
 - Design reference reel: https://www.instagram.com/reel/DbJ7JcORm3l/
 - Blocker: instagram.com is blocked in the cloud session's network. Options: screenshots, Claude in Chrome, LurkAPI plugin, or a new session with instagram.com + i.instagram.com allowed.
+- Retried 2026-10-06: instagram.com, tiktok.com and wantsandneeds.com are all still blocked by the egress policy. Web search does not index @libra.0.1 or @taliriii.
+
+### Partial findings: @wantsandneedsbrand (from search results only)
+- US online streetwear brand. Site wantsandneeds.com; also on TikTok (@wantsandneedsbrand) and Facebook.
+- Hero product: **heavyweight baggy sweatpants**, then track pants, sweatsuits, tees and shorts. Narrow range, built around one signature item.
+- **Numbered drops** (001, 002 sweatsuit, 004 on Sept 10 at 2pm EST), each with a fixed date and time and behind-the-scenes brand story content before launch.
+- **Waitlist + email capture** with a discount for signing up.
+- Marketing is **skit-style TikToks** (e.g. "Wants and Needs Baggy Sweats: A Clothing Brand Mishap"), funny founder-led stories rather than polished ads, and every one ends with "link in bio".
+- Takeaways for OWND: one hero piece (the hoodie), numbered drops (fits "OWND 001"), a waitlist before each drop, and story or skit content about building the brand (fits the "build in public" plan).
 
 ## Q5–Q8: still to ask
 5. Product scope (hoodies only?), manufacturer status, founders' city
