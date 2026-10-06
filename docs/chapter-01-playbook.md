@@ -18,7 +18,13 @@ Date: 2026-10-06. Built from `competitor-research.md` (Wants and Needs, Taliri, 
 
 ## 2. Chapter 01 = one hero piece
 
-- **Product:** one heavyweight boxy hoodie (400+ GSM), 1 colour (Ink Black) or 2 (black + off-white). Matching sweatpants wait for Chapter 02 so the set becomes the signature, the way W&N and Taliri did.
+- **Product:** one heavyweight boxy hoodie (400+ GSM). Matching sweatpants wait for Chapter 02 so the set becomes the signature, the way W&N and Taliri did.
+- **Colours (decided 2026-10-06, from badr's shortlist: white, beige, baby pink, black):**
+  - **Paper** (warm cream/beige, close to `#F2EFE8`): **35 pieces, the hero.** It *is* the brand's "blank page" colour, and it's the gap: the brands checked mostly sell black, grey, navy and brown (Streetan, Taliri's Aura set, W&N 004). A light heavyweight hoodie stands out in a feed and in the street.
+  - **Ink** (black, `#0B0B0B`): **15 pieces.** The safe seller for buyers who won't wear light colours, and the brand's ink colour.
+  - **Baby pink:** not in Chapter 01. Save it for a later, very small "rare page" drop (10–15 pieces) once the brand is known; on a brand-new label it's a risk with the 18–24 male core audience. Test interest first with a story poll.
+  - **Pure white:** skip. Beige gives the same light look, hides dirt better, looks more premium in photos, and pure white reads as a blank basic.
+  - Print: black ink on Paper, off-white ink on Ink, so the two read as one pair (page and pen).
 - **Run:** **50 numbered pieces** ("0001 of 0050"). Small enough to sell out, big enough to matter.
 - **Price:** **499 MAD** (PRD band 450–650; under Streetan's 579–599).
 - **Inside:** the founder story (14 → 19, "not real work") printed inside; QR hang tag to the piece's page where the owner signs "written by ___".
@@ -108,6 +114,6 @@ Hashtags: keep one fixed set per platform, e.g. `#OWND #ownyourstory #streetwear
 
 ## 7. Decisions needed from you
 
-1. One colour or two for Chapter 01? (Recommendation: black only.)
+1. ~~Colours~~: decided, Paper (cream) as hero + Ink (black); baby pink later.
 2. ~~Deposit or not~~: decided, COD only with batched production.
 3. ~~On camera~~: decided, yes, masked.
