@@ -23,7 +23,7 @@ Draft manifesto:
 - Data: Instagram ~15.5M users in Morocco (36% aged 18–24); TikTok ~25% of Moroccans, fastest-growing under 25; online shopping 25% of Moroccans (2024), 73% of purchases on phone; local streetwear brands sell small runs, some at 800+ MAD.
 - To do: validate with 2–3 polls and 30 DM conversations.
 
-## Q4: Inspiration ⏳ (W&N + Moroccan brands researched, see `competitor-research.md`; @libra.0.1 and @taliriii still pending)
+## Q4: Inspiration ⏳ (W&N + Moroccan brands researched, see `competitor-research.md`; Taliri done; @libra.0.1 and the reel still pending)
 - @libra.0.1: Moroccan; founder likes the **hype and power**
 - @taliriii
 - @wantsandneedsbrand_: for **marketing**

@@ -49,6 +49,23 @@ Several colourways were already **sold out** (navy hoodie, black hoodie, navy sw
 - Same hashtags each time: `#clothingbrand #streetwear #sweatsuit #skit`.
 - Cross-posted to YouTube Shorts and Facebook.
 
+## 1b. Taliri (@taliriii), the "hype and power" reference
+
+Independent Paris label, online only, sold at [taliri.fr](https://taliri.fr/). Free shipping over €50, worldwide.
+
+**Hero product: the Aura set.** A heavyweight zip jacket (~$148, ≈1,400 MAD) and wide-leg pant (~$114, ≈1,080 MAD), black and grey, released as a dated drop on **5 Feb 2025**. Around it: oversized tees with **hand-sprayed** details (~$46 on sale), knitwear, denim shorts, beanies and socks.
+
+**How the drop was sold** (TikTok / X listings):
+- A comedy skit framing the product as a "power-up": *"He thought he could just wear the aura tracksuit and go unnoticed… rookie mistake. Side effects: compliments, questions & chase sequences. Not gatekeeper-friendly. Drop goes live Feb 5 on Taliri.fr, don't get caught slipping."*
+- Confident claims from the founder account: *"we designed the best set of the year."*
+- Picked up by curator accounts (Creators Club, Street Archive, X fashion pages) that reposted the set for free.
+- Copycat stores now sell "Taliri Aura" pants on other domains, a sign of real demand.
+- Uses seasonal sales (Back to School, up to 40% off) to clear stock after the hype.
+
+**Why it works:** one instantly recognisable silhouette (the set), a product name that *is* the feeling ("Aura"), a fixed date, and humour that sells status without saying "buy".
+
+**Where OWND can do better:** Taliri's story is the product's effect ("aura"). OWND can sell the same power with a deeper reason, *your own story*, and a name per piece that means something (e.g. "Chapter 01: The Pen"). Hand-finishing (spray, stitching, a written page inside) is also a cheap way to make small runs feel premium, which suits a 5,000 MAD budget better than Taliri's price point.
+
 ## 2. Moroccan and Moroccan-diaspora brands
 
 | Brand | Base | Products | Price (MAD) | Model / angle |
@@ -60,7 +77,7 @@ Several colourways were already **sold out** (navy hoodie, black hoodie, navy sw
 | **Gens du Monde** | Casablanca | Unisex striped polo (red/green) | n/a | Content shot in recognisable Casa places (Habous, old medina rooftops). ([source](https://fr.le360.ma/lifestyle/quand-les-createurs-marocains-de-streetwear-celebrent-le-football-et-la-can_TW2FAWQT4FHCZJ5CRSQUKEVXIM/)) |
 | **Atelier Rouge** | Morocco, since 2020 | Streetwear with Moroccan/African motifs | n/a | Grew through artist partnerships (rapper 7ari), framed as organic rather than paid. ([source](https://www.moroccoworldnews.com/2023/06/32075/atelier-rouges-journey-to-reshaping-moroccan-african-fashion-landscape/)) |
 
-Not covered: **@libra.0.1** and **@taliriii** have no public website or press coverage I could find, so they still need screenshots or a session with Instagram access.
+Not covered: **@libra.0.1** has no public website, press or indexed TikTok, so it still needs screenshots. The design reference reel (instagram.com/reel/DbJ7JcORm3l) is also unreadable from here.
 
 ## 3. UK benchmarks (how small brands became big)
 
@@ -72,8 +89,8 @@ Not covered: **@libra.0.1** and **@taliriii** have no public website or press co
 
 | Pattern seen | Who | OWND move |
 |---|---|---|
-| Hero product before a range | W&N (sweatsuit), Broken Planet (hoodie), Drop (tee) | Chapter 01 = one hero piece in 1–2 colours. Add the matching sweatpants in Chapter 02 so the sweatsuit becomes the signature set. |
-| Numbered, timed drops | W&N 001–004, Drop, 99 By JMS (100 pcs) | "Chapter 01 / Page 001 of 050". Print the unit number inside the garment; it doubles as the story's page number. |
+| Hero product before a range | W&N (sweatsuit), Taliri (Aura set), Broken Planet (hoodie), Drop (tee) | Chapter 01 = one hero piece in 1–2 colours. Add the matching sweatpants in Chapter 02 so the sweatsuit becomes the signature set. |
+| Numbered, timed drops | W&N 001–004, Taliri (dated drop), Drop, 99 By JMS (100 pcs) | "Chapter 01 / Page 001 of 050". Print the unit number inside the garment; it doubles as the story's page number. |
 | Waitlist → live → almost gone → next number | W&N | WhatsApp/Instagram broadcast list + a simple form. Open pre-orders only to the waitlist first, which funds production. |
 | Tiny raffle/numbered "grail" pieces | Broken Planet (15 pcs) | A 10-piece "signed by the founders" variant per Chapter. |
 | Entry product to lower the first purchase | Drop (170 MAD tee), W&N ($40 tee) | Blank Page tee around 199–249 MAD; Chapter hoodie around 449–549 MAD (below Streetan's 579–599 until the brand has proof). |
@@ -87,4 +104,4 @@ Not covered: **@libra.0.1** and **@taliriii** have no public website or press co
 - Q5 (product): hoodie alone, or hoodie + sweatpants as the hero set like W&N? Cost per sample decides it.
 - Q6 (price): do the 449–549 MAD Chapter / 199–249 MAD Blank Page bands feel right?
 - Q7 (content): are both cousins comfortable doing skits on camera? The whole W&N playbook depends on it.
-- Still to research: @libra.0.1 and @taliriii (need screenshots or Instagram access).
+- Still to research: @libra.0.1 and the design reel (need screenshots or screen recordings).
