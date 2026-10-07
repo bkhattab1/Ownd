@@ -5,11 +5,14 @@
 //   SHEET_WEBHOOK_URL                       -> ytsjjl f Google Sheet
 // Kfaya wa7d mnhom, walakin a7sn jouj.
 
-const PRICES = { 1: 350, 2: 650 };
+const PRICES = { 1: 300, 2: 550 };
 const COLORS = {
-  gris: "رمادي",
-  clair: "رمادي فاتح",
   noir: "كحل",
+  rouge: "حمر",
+  beige: "بيج",
+  rose: "وردي",
+  bleu: "زرق",
+  vert: "خضر",
 };
 
 const clean = (v, max) => String(v ?? "").replace(/\s+/g, " ").trim().slice(0, max);

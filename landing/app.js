@@ -1,21 +1,24 @@
 /* ====== CONFIG: bddl hado ====== */
 const CONFIG = {
   whatsapp: "212762793876",   // rqm WhatsApp dyalk (b 212 bla 0 w bla +)
-  price1: 350,                // taman dyal 9et3a wa7da
-  price2: 650,                // taman dyal zouj
+  price1: 300,                // taman dyal 9et3a wa7da
+  price2: 550,                // taman dyal zouj
 };
 /* =============================== */
 
 const IMAGES = ["img/a1.webp","img/a2.webp","img/a3.webp","img/a4.webp","img/a5.webp","img/a6.webp"];
 /* img: tswira li katban mlli kaytkhtar l'loun (null = ma kaynach tswira dyalo) */
 const COLORS = [
-  {id:"gris",  name:"رمادي",      hex:"#8F8F8F", img:0},
-  {id:"clair", name:"رمادي فاتح", hex:"#D8D8D8", img:3},
-  {id:"noir",  name:"كحل",        hex:"#1B1A1A", img:4},
+  {id:"noir",  name:"كحل",  hex:"#2B2A2E", img:0},
+  {id:"rouge", name:"حمر",  hex:"#6E2130", img:2},
+  {id:"beige", name:"بيج",  hex:"#D9C6A8", img:null},
+  {id:"rose",  name:"وردي", hex:"#E7B5C2", img:null},
+  {id:"bleu",  name:"زرق",  hex:"#34507E", img:null},
+  {id:"vert",  name:"خضر",  hex:"#4A6650", img:null},
 ];
 const CITIES = ["الدار البيضاء","الرباط","سلا","تمارة","القنيطرة","المحمدية","مراكش","فاس","مكناس","طنجة","تطوان","أكادير","إنزكان","وجدة","الناظور","الحسيمة","بني ملال","خريبكة","سطات","برشيد","الجديدة","آسفي","الصويرة","العرائش","القصر الكبير","تازة","الراشيدية","ورزازات","تارودانت","كلميم","العيون","الداخلة","خنيفرة","سيدي قاسم","سيدي سليمان","الفقيه بن صالح","وزان","شفشاون","بركان","تاوريرت","مدينة أخرى"];
 
-const state = {img:0, color:COLORS[0], color2:COLORS[2], qty:1};
+const state = {img:0, color:COLORS[0], color2:COLORS[1], qty:1};
 const $ = id => document.getElementById(id);
 const price = () => state.qty === 2 ? CONFIG.price2 : CONFIG.price1;
 
@@ -23,7 +26,7 @@ const price = () => state.qty === 2 ? CONFIG.price2 : CONFIG.price1;
 const track=$("track");
 IMAGES.forEach((src,i)=>{
   const s=document.createElement("div"); s.className="slide";
-  s.innerHTML=`<img src="${src}" alt="عباية هودي OWND، صورة ${i+1}" width="1080" height="1440" ${i?'loading="lazy"':'fetchpriority="high"'} draggable="false">`;
+  s.innerHTML=`<img src="${src}" alt="عباية هودي طويلة OWND، صورة ${i+1}" width="1080" height="1440" ${i?'loading="lazy"':'fetchpriority="high"'} draggable="false">`;
   track.appendChild(s);
   $("dots").appendChild(document.createElement("i"));
   const b=document.createElement("button");
