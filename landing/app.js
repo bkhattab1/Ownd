@@ -6,7 +6,7 @@ const CONFIG = {
 };
 /* =============================== */
 
-const IMAGES = ["img/a1.webp","img/a2.webp","img/a3.webp","img/a4.webp","img/a5.webp","img/a6.webp"];
+const IMAGES = ["img/a1.webp?v=3","img/a2.webp?v=3","img/a3.webp?v=3","img/a4.webp?v=3","img/a5.webp?v=3","img/a6.webp?v=3"];
 /* img: tswira li katban mlli kaytkhtar l'loun (null = ma kaynach tswira dyalo) */
 const COLORS = [
   {id:"noir",  name:"كحل",  hex:"#2B2A2E", img:0},
