@@ -2,7 +2,7 @@
 const CONFIG = {
   whatsapp: "212762793876",   // rqm WhatsApp dyalk (b 212 bla 0 w bla +)
   price1: 350,                // taman dyal 9et3a wa7da
-  price2: 600,                // taman dyal zouj
+  price2: 650,                // taman dyal zouj
 };
 /* =============================== */
 
@@ -13,15 +13,9 @@ const COLORS = [
   {id:"clair", name:"رمادي فاتح", hex:"#D8D8D8", img:3},
   {id:"noir",  name:"كحل",        hex:"#1B1A1A", img:4},
 ];
-const SIZES = [
-  {id:"S",  hint:"150 – 158 سم"},
-  {id:"M",  hint:"158 – 165 سم"},
-  {id:"L",  hint:"165 – 172 سم"},
-  {id:"XL", hint:"172 – 180 سم"},
-];
 const CITIES = ["الدار البيضاء","الرباط","سلا","تمارة","القنيطرة","المحمدية","مراكش","فاس","مكناس","طنجة","تطوان","أكادير","إنزكان","وجدة","الناظور","الحسيمة","بني ملال","خريبكة","سطات","برشيد","الجديدة","آسفي","الصويرة","العرائش","القصر الكبير","تازة","الراشيدية","ورزازات","تارودانت","كلميم","العيون","الداخلة","خنيفرة","سيدي قاسم","سيدي سليمان","الفقيه بن صالح","وزان","شفشاون","بركان","تاوريرت","مدينة أخرى"];
 
-const state = {img:0, color:COLORS[0], color2:COLORS[2], size:"M", qty:1};
+const state = {img:0, color:COLORS[0], color2:COLORS[2], qty:1};
 const $ = id => document.getElementById(id);
 const price = () => state.qty === 2 ? CONFIG.price2 : CONFIG.price1;
 
@@ -29,7 +23,7 @@ const price = () => state.qty === 2 ? CONFIG.price2 : CONFIG.price1;
 const track=$("track");
 IMAGES.forEach((src,i)=>{
   const s=document.createElement("div"); s.className="slide";
-  s.innerHTML=`<img src="${src}" alt="عباية هودي OWND، صورة ${i+1}" width="810" height="1080" ${i?'loading="lazy"':'fetchpriority="high"'} draggable="false">`;
+  s.innerHTML=`<img src="${src}" alt="عباية هودي OWND، صورة ${i+1}" width="1080" height="1440" ${i?'loading="lazy"':'fetchpriority="high"'} draggable="false">`;
   track.appendChild(s);
   $("dots").appendChild(document.createElement("i"));
   const b=document.createElement("button");
@@ -76,9 +70,6 @@ radios($("swatches"), COLORS, swatch,
   c=>{state.color=c; if(c.img!==null) setImg(c.img);}, c=>c===state.color);
 radios($("swatches2"), COLORS, swatch,
   c=>{state.color2=c;}, c=>c===state.color2);
-radios($("sizes"), SIZES,
-  (b,s)=>{b.className="chip"; b.innerHTML=`${s.id}<small>${s.hint}</small>`;},
-  s=>{state.size=s.id;}, s=>s.id===state.size);
 
 const SAVE = CONFIG.price1*2 - CONFIG.price2;
 function bundleItems(){
@@ -91,25 +82,22 @@ radios($("bundles"), bundleItems(),
   (b,x)=>{b.className="bundle"; b.innerHTML=`<div><div class="b-title">${x.title}${x.rib?`<span class="ribbon">${x.rib}</span>`:""}</div><div class="b-sub">${x.sub}</div></div><div class="b-price">${x.p} درهم</div>`;},
   x=>{state.qty=x.q;}, x=>x.q===state.qty);
 
-$("offerSave").textContent=`-${SAVE} درهم`;
-$("offerTitle").textContent=`زوج قطع بـ ${CONFIG.price2} درهم`;
-$("offerSub").textContent=`${CONFIG.price2/2} درهم للقطعة · اختاري جوج ألوان`;
 
 CITIES.forEach(c=>{const o=document.createElement("option");o.value=c;o.textContent=c;$("city").appendChild(o);});
 
 function itemLabel(o){
   return o.qty===2
-    ? `زوج قطع · ${o.color.name} + ${o.color2.name} · ${o.size}`
-    : `قطعة وحدة · ${o.color.name} · ${o.size}`;
+    ? `زوج قطع · ${o.color.name} + ${o.color2.name}`
+    : `قطعة وحدة · ${o.color.name}`;
 }
 function refresh(){
-  ["swatches","swatches2","sizes","bundles"].forEach(id=>sync($(id)));
+  ["swatches","swatches2","bundles"].forEach(id=>sync($(id)));
   $("colorName").textContent=state.color.name;
   $("color2Name").textContent=state.color2.name;
   $("secondWrap").classList.toggle("show", state.qty===2);
   const p=price()+" درهم";
   $("priceTop").innerHTML=`${price()} <small>درهم</small>`;
-  $("sumPrice").textContent=p; $("stickyPrice").textContent=p; $("closePrice").textContent=p;
+  $("sumPrice").textContent=p; $("stickyPrice").textContent=p;
   $("sumLabel").textContent = itemLabel(state);
 }
 mark(0); refresh();
@@ -129,7 +117,8 @@ function showThanks(t){
   $("orderId").textContent = t.id;
   if(c.img!==null){ $("tyImg").src = IMAGES[c.img]; $("tyImg").hidden=false; }
   else { $("tySw").style.background = c.hex; $("tySw").hidden=false; }
-  $("tyItem").textContent = itemLabel({qty:t.qty, color:c, color2:c2, size:t.size});
+  $("tyItem").textContent = itemLabel({qty:t.qty, color:c, color2:c2});
+  $("tyHeight").textContent = t.height ? t.height+" سم" : "—";
   $("tyCity").textContent = t.city;
   $("tyPhone").textContent = String(t.phone||"").replace(/(\d{2})(?=\d)/g,"$1 ");
   $("tyTotal").textContent = t.total+" درهم";
@@ -160,9 +149,11 @@ $("order").addEventListener("submit", async e=>{
   const phone=$("phone").value.replace(/[\s.-]/g,"").replace(/^\+?212/,"0");
   const city=$("city").value;
   const address=$("address").value.trim();
+  const height=parseInt($("height").value.replace(/[^\d]/g,""),10);
   const ok = [
     check("name", name.length>=3),
     check("phone", /^0[567]\d{8}$/.test(phone)),
+    check("height", height>=120 && height<=210),
     check("city", !!city),
     check("address", address.length>=4),
   ].every(Boolean);
@@ -173,7 +164,7 @@ $("order").addEventListener("submit", async e=>{
     qty: state.qty,
     color: state.color.id,
     color2: state.qty===2 ? state.color2.id : null,
-    size: state.size,
+    height,
     website: $("website").value,
   };
 
@@ -188,7 +179,7 @@ $("order").addEventListener("submit", async e=>{
     if (window.ttq) ttq.track("CompletePayment",{value:data.total,currency:"MAD"});
 
     const t = {id:data.id, total:data.total || price(), name, phone, city,
-               qty:order.qty, color:order.color, color2:order.color2, size:order.size};
+               qty:order.qty, color:order.color, color2:order.color2, height};
     try{ sessionStorage.setItem("hd_order", JSON.stringify(t)); history.replaceState(null,"","#merci"); }catch(e){}
     showThanks(t);
   }catch(err){

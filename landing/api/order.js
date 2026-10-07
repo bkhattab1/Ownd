@@ -5,13 +5,12 @@
 //   SHEET_WEBHOOK_URL                       -> ytsjjl f Google Sheet
 // Kfaya wa7d mnhom, walakin a7sn jouj.
 
-const PRICES = { 1: 350, 2: 600 };
+const PRICES = { 1: 350, 2: 650 };
 const COLORS = {
   gris: "رمادي",
   clair: "رمادي فاتح",
   noir: "كحل",
 };
-const SIZES = ["S", "M", "L", "XL"];
 
 const clean = (v, max) => String(v ?? "").replace(/\s+/g, " ").trim().slice(0, max);
 
@@ -24,7 +23,7 @@ function validate(body) {
     qty: Number(body.qty) === 2 ? 2 : 1,
     color: String(body.color || ""),
     color2: body.color2 ? String(body.color2) : null,
-    size: String(body.size || ""),
+    height: Math.round(Number(body.height)),
   };
   if (o.name.length < 3) return { error: "name" };
   if (!/^0[567]\d{8}$/.test(o.phone)) return { error: "phone" };
@@ -33,7 +32,9 @@ function validate(body) {
   if (!COLORS[o.color]) return { error: "color" };
   if (o.qty === 2 && !COLORS[o.color2]) return { error: "color2" };
   if (o.qty === 1) o.color2 = null;
-  if (!SIZES.includes(o.size)) return { error: "size" };
+  if (!(o.height >= 120 && o.height <= 210)) return { error: "height" };
+  // l'Sheet l9dim 3ndo colonne "size": kan3mroha b tol bach ma tb9ach khawya
+  o.size = `${o.height} سم`;
   return { order: o };
 }
 
@@ -115,7 +116,7 @@ module.exports = async function handler(req, res) {
 العنوان: ${order.address}
 الكمية: ${order.qty}
 اللون: ${colors}
-المقاس: ${order.size}
+الطول: ${order.height} سم
 المجموع: ${total} درهم (COD)
 ${date}`;
 
