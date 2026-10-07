@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OWND · عباية هودي أوفرسايز</title>
+<meta name="description" content="OWND: عباية هودي أوفرسايز بـ 350 درهم، زوج قطع بـ 600 درهم. الخلاص عند الاستلام والتوصيل فابور لجميع المدن.">
+<meta name="theme-color" content="#EFEFEC">
+<meta property="og:title" content="OWND · عباية هودي أوفرسايز">
+<meta property="og:description" content="350 درهم · زوج قطع بـ 600 درهم · الخلاص عند الاستلام والتوصيل فابور.">
+<meta property="og:image" content="/img/a1.webp">
+<link rel="preload" as="image" href="img/a1.webp">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<!-- Facebook / TikTok pixel: 7ett l'code dyalk hna -->
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="strip" aria-hidden="true">
+  <div class="strip-track">
+    <span>التوصيل فابور لجميع المدن</span><span>الخلاص عند الاستلام</span><span>شوفي الطلبية قبل ما تخلصي</span><span>زوج قطع بـ 600 درهم</span>
+    <span>التوصيل فابور لجميع المدن</span><span>الخلاص عند الاستلام</span><span>شوفي الطلبية قبل ما تخلصي</span><span>زوج قطع بـ 600 درهم</span>
+  </div>
+</div>
+
+<div id="shop">
+<div class="wrap">
+  <header class="top">
+    <img class="logo" src="img/logo.svg" alt="OWND" width="110" height="36">
+    <a class="cta-mini" href="#order">طلبي دابا</a>
+  </header>
+
+  <main class="product">
+    <div class="gallery">
+      <div class="main-img">
+        <div class="track" id="track" dir="ltr" aria-label="صور المنتوج"></div>
+        <span class="tag">كولكسيون الشتا</span>
+        <span class="count" id="count">1 / 6</span>
+        <div class="dots" id="dots" aria-hidden="true"></div>
+        <button class="arrow prev" type="button" id="prevBtn" aria-label="الصورة اللي قبل">‹</button>
+        <button class="arrow next" type="button" id="nextBtn" aria-label="الصورة اللي من بعد">›</button>
+      </div>
+      <div class="thumbs" id="thumbs"></div>
+    </div>
+
+    <div class="info">
+      <div class="eyebrow">الخلاص عند الاستلام · التوصيل فابور</div>
+      <h1>عباية هودي أوفرسايز</h1>
+      <p class="sub">هودي طويل حتى للكعبة بستيل ستريت وير: واسعة بزاف، دافية، بقب كبير وخيط وفتحات فالجناب. كتلبسيها مع سروال واسع وسبرديلة ومع كولشي.</p>
+
+      <div class="price-row">
+        <div class="price" id="priceTop">350 <small>درهم</small></div>
+        <span class="note-chip">التوصيل فابور داخل فالثمن</span>
+      </div>
+
+      <div class="offer">
+        <span class="pct" id="offerSave"></span>
+        <div><b id="offerTitle"></b><br><span id="offerSub"></span></div>
+      </div>
+
+      <ul class="perks">
+        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>الخلاص كاش عند الاستلام</li>
+        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>كتوصلك فـ 24 حتى 72 ساعة</li>
+        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>تبديل المقاس ممكن</li>
+      </ul>
+
+      <div class="block">
+        <div class="label">اللون <span id="colorName"></span></div>
+        <div class="swatches" role="radiogroup" aria-label="اللون" id="swatches"></div>
+      </div>
+
+      <div class="block">
+        <div class="label">المقاس <span>حسب الطول ديالك</span></div>
+        <div class="sizes" role="radiogroup" aria-label="المقاس" id="sizes"></div>
+      </div>
+
+      <div class="block">
+        <div class="label">الكمية</div>
+        <div class="bundles" role="radiogroup" aria-label="الكمية" id="bundles"></div>
+        <div class="second" id="secondWrap">
+          <div class="label" style="margin-top:4px">لون القطعة الثانية <span id="color2Name"></span></div>
+          <div class="swatches" role="radiogroup" aria-label="لون القطعة الثانية" id="swatches2"></div>
+        </div>
+      </div>
+
+      <form class="order" id="order" novalidate>
+        <h2>كملي الطلبية ديالك</h2>
+        <p class="hint">عمري المعلومات وغادي نتاصلو بيك باش نأكدو معاك.</p>
+
+        <div class="field" id="f-name">
+          <label for="name">الإسم الكامل</label>
+          <input id="name" name="name" autocomplete="name" placeholder="مثلا: سلمى بناني">
+          <div class="err">كتبي الإسم ديالك</div>
+        </div>
+        <div class="field" id="f-phone">
+          <label for="phone">رقم الهاتف</label>
+          <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="06 00 00 00 00" dir="ltr" style="text-align:right">
+          <div class="err">الرقم خاصو يبدا بـ 05 ولا 06 ولا 07 وفيه 10 أرقام</div>
+        </div>
+        <div class="field" id="f-city">
+          <label for="city">المدينة</label>
+          <select id="city" name="city"><option value="">اختاري المدينة</option></select>
+          <div class="err">اختاري المدينة</div>
+        </div>
+        <div class="field" id="f-address">
+          <label for="address">العنوان</label>
+          <input id="address" name="address" autocomplete="street-address" placeholder="الحي، الزنقة، رقم الدار">
+          <div class="err">كتبي العنوان</div>
+        </div>
+
+        <div class="hp" aria-hidden="true"><label for="website">website</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
+        <p class="form-err" id="formErr" role="alert" hidden></p>
+        <div class="summary"><span id="sumLabel"></span><span id="sumPrice"></span></div>
+        <button class="btn" type="submit" id="submitBtn">أكدي الطلبية · الخلاص عند الاستلام</button>
+        <div class="reassure"><span>ما كتخلصي حتى توصلك</span><span>التوصيل فابور</span></div>
+      </form>
+    </div>
+  </main>
+</div>
+
+<section class="band">
+  <div class="wrap">
+    <h2>علاش غادي تعجبك</h2>
+    <div class="why">
+      <div class="why-video">
+        <video id="vid" src="img/ownd.mp4" poster="img/a1.webp" muted loop playsinline preload="none" controls aria-label="فيديو ديال عباية هودي OWND"></video>
+        <p>شوفيها كيفاش كتجي فالفيديو</p>
+      </div>
+      <div class="features">
+        <div class="feat">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c3 3 5 5.5 5 9a5 5 0 0 1-10 0c0-3.5 2-6 5-9z"/></svg>
+          <div><h3>دافية فالبرد</h3><p>ثوب سميك وثقيل، كيحضيك من البرد.</p></div>
+        </div>
+        <div class="feat">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v20M8 18l4 4 4-4M8 6l4-4 4 4"/></svg>
+          <div><h3>أوفرسايز وساترة</h3><p>طويلة حتى للكعبة وواسعة بزاف، ما كتبينش الجسم.</p></div>
+        </div>
+        <div class="feat">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8c2-4 14-4 16 0M6 8v12h12V8"/><path d="M9 14h6"/></svg>
+          <div><h3>قب كبير وفتحات فالجناب</h3><p>قب بالخيط وفتحات على الجناب باش تمشي مرتاحة.</p></div>
+        </div>
+        <div class="feat">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>
+          <div><h3>ستيل ستريت وير</h3><p>كتلبس مع السروال الواسع والسبرديلة، للجامعة ولا للخرجة.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band dark">
+  <div class="wrap">
+    <h2>كيفاش كتطلبي</h2>
+    <div class="steps">
+      <div class="step"><h3>اختاري اللون والمقاس</h3><p>وعمري الإسم والرقم والعنوان.</p></div>
+      <div class="step"><h3>كنعيطو ليك</h3><p>باش نأكدو الطلبية معاك قبل ما نصيفطوها.</p></div>
+      <div class="step"><h3>كتوصلك وكتخلصي</h3><p>كتشوفي العباية وعاد كتخلصي لموزع.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap faq">
+    <h2>أسئلة كتسولو عليها البنات</h2>
+    <details><summary>واش نقدر نخلص ملي توصلني؟</summary><p>إيه، الخلاص كاش عند الاستلام. ما كتخلصي والو قبل.</p></details>
+    <details><summary>شحال كتاخد التوصيل؟</summary><p>غالبا بين 24 و 72 ساعة حسب المدينة، والتوصيل فابور.</p></details>
+    <details><summary>إلا ما جانيش المقاس؟</summary><p>تواصلي معانا وغادي نبدلوه ليك بمقاس آخر.</p></details>
+    <details><summary>واش الثوب كيعطي الحرارة؟</summary><p>الثوب سميك وثقيل، مزيان للخريف والشتا.</p></details>
+    <details><summary>كيفاش نختار المقاس؟</summary><p>اختاري حسب الطول ديالك. القصة أوفرسايز، وإلا كنتي بين جوج مقاسات خودي الكبير باش تجي طويلة مزيان.</p></details>
+  </div>
+</section>
+
+<div class="closing wrap">
+  <a href="#order">طلبي دابا · <span id="closePrice"></span></a>
+  <p>الخلاص عند الاستلام · التوصيل فابور لجميع المدن</p>
+</div>
+
+<footer>
+  <img class="logo sm" src="img/logo.svg" alt="OWND" width="110" height="36">
+  OWND · ستريت وير · المغرب
+</footer>
+
+<div class="sticky" id="sticky">
+  <div><div class="p" id="stickyPrice"></div><div style="font-size:13px;color:var(--muted)">الخلاص عند الاستلام</div></div>
+  <a href="#order">طلبي دابا</a>
+</div>
+</div>
+
+<!-- ====== thank-you page ====== -->
+<main class="ty" id="thanksPage" hidden>
+  <div class="ty-head" role="status">
+    <img class="logo ty-logo" src="img/logo.svg" alt="OWND" width="110" height="36">
+    <div class="ty-check"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+    <h1 id="tyTitle">شكرا! الطلبية ديالك توصلات</h1>
+    <p>سجلنا الطلبية ديالك مزيان. ما كتخلصي والو دابا.</p>
+    <div class="ty-id">رقم الطلبية <b id="orderId"></b></div>
+  </div>
+
+  <div class="ty-card">
+    <div class="ty-item">
+      <img id="tyImg" alt="" width="78" height="104" hidden><i class="ty-sw" id="tySw" hidden></i>
+      <div><div class="t">عباية هودي أوفرسايز</div><div class="s" id="tyItem"></div></div>
+    </div>
+    <dl class="ty-rows">
+      <div><dt>التوصيل</dt><dd>فابور</dd></div>
+      <div><dt>المدينة</dt><dd id="tyCity"></dd></div>
+      <div><dt>الهاتف</dt><dd id="tyPhone" dir="ltr"></dd></div>
+      <div class="total"><dt>المجموع · كاش عند الاستلام</dt><dd id="tyTotal"></dd></div>
+    </dl>
+  </div>
+
+  <h2>شنو غادي يوقع دابا؟</h2>
+  <ol class="ty-steps">
+    <li><b>غادي نعيطو ليك باش نأكدو</b><span>خلي التيليفون قريب منك وجاوبي على الرقم، بلا تأكيد ما كنصيفطوش الطلبية.</span></li>
+    <li><b>كنصيفطو ليك الطلبية</b><span>كتوصلك فـ 24 حتى 72 ساعة حسب المدينة، والتوصيل فابور.</span></li>
+    <li><b>كتشوفيها وعاد كتخلصي</b><span>كتخلصي كاش لموزع ملي توصلك.</span></li>
+  </ol>
+
+  <a class="wa" id="waLink" href="#" target="_blank" rel="noopener" hidden>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"/></svg>
+    أكدي الطلبية دغيا فالواتساب
+  </a>
+  <div class="ty-up" id="tyUp" hidden></div>
+  <a class="ty-back" href="./" id="tyBack">رجعي للصفحة الرئيسية</a>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
