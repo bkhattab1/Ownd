@@ -105,6 +105,17 @@ function refresh(){
 }
 mark(0); refresh();
 
+/* tracking dyal l'mraa7il: kayban f Vercel Analytics b7al pages /etape/... */
+const sent={};
+function step(name){
+  if(sent[name]) return; sent[name]=1;
+  try{ window.va && window.va("pageview",{path:"/etape/"+name}); }catch(e){}
+}
+if("IntersectionObserver" in window){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ step("2-formulaire"); io.disconnect(); } }),{threshold:.3});
+  io.observe($("order"));
+}
+
 /* video: kaybda mlli kayban f l'ecran */
 const vid=$("vid");
 if(vid && "IntersectionObserver" in window){
@@ -172,6 +183,7 @@ $("order").addEventListener("submit", async e=>{
   };
 
   const btn=$("submitBtn"), label=btn.textContent;
+  step("3-clic-commande");
   btn.disabled=true; btn.textContent="كنصيفطو الطلبية…"; $("formErr").hidden=true;
   try{
     const r = await fetch("/api/order",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(order)});
@@ -184,6 +196,7 @@ $("order").addEventListener("submit", async e=>{
     const t = {id:data.id, total:data.total || price(), name, phone, city,
                qty:order.qty, color:order.color, color2:order.color2, height};
     try{ sessionStorage.setItem("hd_order", JSON.stringify(t)); history.replaceState(null,"","#merci"); }catch(e){}
+    step("4-commande-ok");
     showThanks(t);
   }catch(err){
     $("formErr").textContent = "ما قدرناش نصيفطو الطلبية دابا. تأكدي من الأنترنيت وعاودي ضغطي على الزر.";
